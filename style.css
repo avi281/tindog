@@ -1,0 +1,195 @@
+@font-face
+{
+    font-family: avi;
+    src:url(Montserrat-Black.ttf);
+}
+@font-face
+{
+    font-family: i;
+    src:url(Montserrat-Medium.ttf);
+}
+@font-face {
+    font-family: nash;
+    src: url(Montserrat-Light.ttf);
+}
+@font-face
+{
+    font-family: avin;
+    src: url(Montserrat-Bold.ttf)
+}
+body{
+    margin: 10px;
+}
+h3
+{
+    font-family: avin;
+    font-size: 1.5rem;
+}
+.navbar
+{
+    padding-bottom: 2.5rem;
+}
+.nav-item
+{
+    padding: 0 20px;
+}
+.navbar-brand
+{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+.iphone
+{
+    width: 70%;
+    transform: rotate(25deg);
+}
+.nav-item
+{
+    font-size: 1.3rem;
+    font-family: nash;
+}
+.download-button
+{
+    margin: 5% 3% 5% 0;
+}
+body{
+    font-family: i;
+}
+.title
+{
+    background-color: #ff4c68;
+} 
+h1{
+    font-family: avi;
+    font-size: 3.5rem;
+    line-height: 1.5;
+    color: white;
+}
+.container-fluid
+{
+    padding: 3% 15%;
+}
+.feature{
+    background-color: #fff;
+    text-align: center;
+    padding: 7% 15%;
+    position: relative;
+    z-index: 1;
+}
+.icon
+{
+    /* font-size: 3.5rem; */
+    color: #ef8172;
+    padding-bottom: 1rem;
+}
+.icon:hover
+{
+    color: #ff4c68;
+}
+.about
+{
+    color: #8f8f8f;
+    padding: 10px 32px;
+}
+.testimonials
+{
+    background-color: #ef8172;
+    text-align: center;
+}
+h2
+{
+    font-family: avi;
+    color: #fff;
+    font-size: 3rem;
+    line-height: 1.5;
+}
+.dog
+{
+    border-radius: 100%;
+    width: 10%;
+    padding: 20px;
+}
+#press
+{
+    background-color: #ef8172;
+    text-align: center;
+}
+.press-icon
+{
+    width: 14%;
+    padding-bottom: 50px;
+    padding: 20px 20px 50px;
+}
+.carousel-item
+{
+    padding: 5% 15%;
+}
+.price
+{
+    color: black;
+}
+#pricing
+{
+    text-align: center;
+    padding: 100px;
+}
+.card-item
+{
+    padding: 3% 2%;
+}
+.zindex
+{
+    position: relative;
+}
+.card
+{
+    border-radius: 5%;
+}
+.zindex
+{
+    position: absolute;
+    right: 15%;
+}
+#cta
+{
+    background-color: #ff4c68;
+    text-align: center;
+    padding-bottom: 3%;
+}
+.cta-head
+{
+    font-family: avi;
+    color: #fff;
+    padding: 5% 20% 0%;
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+#footer
+{
+    margin: 5%;
+    text-align: center;
+    background-color: #fff;
+}
+@media (max-width: 1160px) {
+    .zindex
+    {
+        position: static;
+    }
+    .iphone
+    {
+        transform: rotate(0deg);
+    }
+    .mobile
+    {
+        text-align: center;
+    }
+}
+.last
+{
+    color: #8f8f8f;
+}
+.me
+{
+    margin: 10px;
+}
