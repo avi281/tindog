@@ -73,6 +73,7 @@ h1{
     padding: 7% 15%;
     position: relative;
     z-index: 1;
+    margin: 0px;
 }
 .icon
 {
